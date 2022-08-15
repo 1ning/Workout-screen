@@ -1,10 +1,9 @@
 Deakin SIT374/SIT764 - RedBack operation
 
-Week 4
+Week 5
 
-Task: Making homepage with previous workouts
+Task: workouts pages
 
-Group: PEIJIN HE 221188433, Henry Xiao 222181313
 
 # redback_mobile_app
 
