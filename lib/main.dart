@@ -72,79 +72,160 @@ class _ElevatedButtonExample extends StatelessWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
-                                  Text(
-                                    'Workout Length ',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      color: Color.fromARGB(255, 151, 166, 185),
-                                      fontSize: 25,
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(8),
+                                          topRight: Radius.circular(8)),
+                                    ),
+                                    child: Container(
+                                      width: 140.0,
+                                      height: 30.0,
+                                      alignment: Alignment.center,
+                                      child: Text(
+                                        'Workout Length',
+                                        style: TextStyle(
+                                          fontFamily: 'Poppins',
+                                          color: Color.fromARGB(255, 0, 0, 0),
+                                          fontSize: 15,
+                                        ),
+                                      ),
                                     ),
                                   ),
-                                  Text(
-                                    '00:00:05',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
                                       color: Color(0xFFEF8B60),
-                                      fontSize: 25,
+                                      borderRadius: BorderRadius.only(
+                                          bottomLeft: Radius.circular(8),
+                                          bottomRight: Radius.circular(8)),
                                     ),
+                                    child: Container(
+                                        width: 140.0,
+                                        height: 40.0,
+                                        alignment: Alignment.center,
+                                        child: Text(
+                                          '00:05:00',
+                                          style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            color: Color.fromARGB(255, 0, 0, 0),
+                                            fontSize: 15,
+                                          ),
+                                        )),
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 40, 0, 0),
-                                    child: Text(
-                                      'Max Level ',
-                                      style: TextStyle(
-                                        fontFamily: 'Poppins',
+                                    child: DecoratedBox(
+                                      decoration: BoxDecoration(
                                         color:
-                                            Color.fromARGB(255, 151, 166, 185),
-                                        fontSize: 25,
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        borderRadius: BorderRadius.only(
+                                            topLeft: Radius.circular(8),
+                                            topRight: Radius.circular(8)),
                                       ),
+                                      child: Container(
+                                          width: 140.0,
+                                          height: 40.0,
+                                          alignment: Alignment.topCenter,
+                                          child: Column(children: [
+                                            Text(
+                                              'Max Level',
+                                              style: TextStyle(
+                                                fontFamily: 'Poppins',
+                                                color: Color.fromARGB(
+                                                    255, 0, 0, 0),
+                                                fontSize: 15,
+                                              ),
+                                            ),
+                                            Text(
+                                              'Sustained',
+                                              style: TextStyle(
+                                                fontFamily: 'Poppins',
+                                                color: Color.fromARGB(
+                                                    255, 0, 0, 0),
+                                                fontSize: 15,
+                                              ),
+                                            ),
+                                          ])),
                                     ),
                                   ),
-                                  Text(
-                                    'Sustained ',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      color: Color.fromARGB(255, 151, 166, 185),
-                                      fontSize: 25,
-                                    ),
-                                  ),
-                                  Text(
-                                    'Level 7',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
                                       color: Color(0xFFEF8B60),
-                                      fontSize: 25,
+                                      borderRadius: BorderRadius.only(
+                                          bottomLeft: Radius.circular(8),
+                                          bottomRight: Radius.circular(8)),
                                     ),
+                                    child: Container(
+                                        width: 140.0,
+                                        height: 30.0,
+                                        alignment: Alignment.center,
+                                        child: Text(
+                                          'Level 7',
+                                          style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            color: Color.fromARGB(255, 0, 0, 0),
+                                            fontSize: 15,
+                                          ),
+                                        )),
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 40, 0, 0),
-                                    child: Text(
-                                      'Max Heart',
-                                      style: TextStyle(
-                                        fontFamily: 'Poppins',
+                                    child: DecoratedBox(
+                                      decoration: BoxDecoration(
                                         color:
-                                            Color.fromARGB(255, 151, 166, 185),
-                                        fontSize: 25,
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        borderRadius: BorderRadius.only(
+                                            topLeft: Radius.circular(8),
+                                            topRight: Radius.circular(8)),
                                       ),
+                                      child: Container(
+                                          width: 140.0,
+                                          height: 40.0,
+                                          alignment: Alignment.center,
+                                          child: Column(children: [
+                                            Text(
+                                              'Max Heart',
+                                              style: TextStyle(
+                                                fontFamily: 'Poppins',
+                                                color: Color.fromARGB(
+                                                    255, 0, 0, 0),
+                                                fontSize: 15,
+                                              ),
+                                            ),
+                                            Text(
+                                              'Rate',
+                                              style: TextStyle(
+                                                fontFamily: 'Poppins',
+                                                color: Color.fromARGB(
+                                                    255, 0, 0, 0),
+                                                fontSize: 15,
+                                              ),
+                                            ),
+                                          ])),
                                     ),
                                   ),
-                                  Text(
-                                    'Rate ',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      color: Color.fromARGB(255, 151, 166, 185),
-                                      fontSize: 25,
-                                    ),
-                                  ),
-                                  Text(
-                                    '140 BPM',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
                                       color: Color(0xFFEF8B60),
-                                      fontSize: 25,
+                                      borderRadius: BorderRadius.only(
+                                          bottomLeft: Radius.circular(8),
+                                          bottomRight: Radius.circular(8)),
                                     ),
+                                    child: Container(
+                                        width: 140.0,
+                                        height: 30.0,
+                                        alignment: Alignment.center,
+                                        child: Text(
+                                          '140 BPM',
+                                          style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            color: Color.fromARGB(255, 0, 0, 0),
+                                            fontSize: 15,
+                                          ),
+                                        )),
                                   ),
                                 ],
                               ),
@@ -153,87 +234,150 @@ class _ElevatedButtonExample extends StatelessWidget {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
                               child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.end,
-                                mainAxisSize: MainAxisSize.max,
                                 children: [
-                                  Text(
-                                    'Max Speed ',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      color: Color.fromARGB(255, 151, 166, 185),
-                                      fontSize: 25,
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(8),
+                                          topRight: Radius.circular(8)),
+                                    ),
+                                    child: Container(
+                                      width: 140.0,
+                                      height: 30.0,
+                                      alignment: Alignment.center,
+                                      child: Text(
+                                        'Max Speed',
+                                        style: TextStyle(
+                                          fontFamily: 'Poppins',
+                                          color: Color.fromARGB(255, 0, 0, 0),
+                                          fontSize: 15,
+                                        ),
+                                      ),
                                     ),
                                   ),
-                                  Text(
-                                    '32.0 KM/H',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
                                       color: Color(0xFFEF8B60),
-                                      fontSize: 25,
+                                      borderRadius: BorderRadius.only(
+                                          bottomLeft: Radius.circular(8),
+                                          bottomRight: Radius.circular(8)),
                                     ),
+                                    child: Container(
+                                        width: 140.0,
+                                        height: 40.0,
+                                        alignment: Alignment.center,
+                                        child: Text(
+                                          '32.0 KM/H',
+                                          style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            color: Color.fromARGB(255, 0, 0, 0),
+                                            fontSize: 15,
+                                          ),
+                                        )),
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 40, 0, 0),
-                                    child: Text(
-                                      'Max Cadence ',
-                                      style: TextStyle(
-                                        fontFamily: 'Poppins',
+                                    child: DecoratedBox(
+                                      decoration: BoxDecoration(
                                         color:
-                                            Color.fromARGB(255, 151, 166, 185),
-                                        fontSize: 25,
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        borderRadius: BorderRadius.only(
+                                            topLeft: Radius.circular(8),
+                                            topRight: Radius.circular(8)),
                                       ),
+                                      child: Container(
+                                          width: 140.0,
+                                          height: 30.0,
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                            'Max Cadence',
+                                            style: TextStyle(
+                                              fontFamily: 'Poppins',
+                                              color:
+                                                  Color.fromARGB(255, 0, 0, 0),
+                                              fontSize: 15,
+                                            ),
+                                          )),
                                     ),
                                   ),
-                                  Text(
-                                    ' ',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      color: Color.fromARGB(255, 151, 166, 185),
-                                      fontSize: 25,
-                                    ),
-                                  ),
-                                  Text(
-                                    '60RPM',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
                                       color: Color(0xFFEF8B60),
-                                      fontSize: 25,
+                                      borderRadius: BorderRadius.only(
+                                          bottomLeft: Radius.circular(8),
+                                          bottomRight: Radius.circular(8)),
                                     ),
+                                    child: Container(
+                                        width: 140.0,
+                                        height: 40.0,
+                                        alignment: Alignment.center,
+                                        child: Text(
+                                          '60 RPM',
+                                          style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            color: Color.fromARGB(255, 0, 0, 0),
+                                            fontSize: 15,
+                                          ),
+                                        )),
                                   ),
                                   Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 40, 0, 0),
-                                      child: Column(
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0, 40, 0, 0),
+                                    child: DecoratedBox(
+                                      decoration: BoxDecoration(
+                                        color:
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        borderRadius: BorderRadius.only(
+                                            topLeft: Radius.circular(8),
+                                            topRight: Radius.circular(8)),
+                                      ),
+                                      child: Container(
+                                          width: 140.0,
+                                          height: 40.0,
+                                          alignment: Alignment.center,
+                                          child: Column(children: [
                                             Text(
                                               'Max Power',
                                               style: TextStyle(
                                                 fontFamily: 'Poppins',
                                                 color: Color.fromARGB(
-                                                    255, 151, 166, 185),
-                                                fontSize: 25,
+                                                    255, 0, 0, 0),
+                                                fontSize: 15,
                                               ),
                                             ),
                                             Text(
-                                              'Output ',
+                                              ' Output',
                                               style: TextStyle(
                                                 fontFamily: 'Poppins',
                                                 color: Color.fromARGB(
-                                                    255, 151, 166, 185),
-                                                fontSize: 25,
+                                                    255, 0, 0, 0),
+                                                fontSize: 15,
                                               ),
                                             ),
                                           ])),
-                                  Text(
-                                    '15.0 KJ',
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      color: Color(0xFFEF8B60),
-                                      fontSize: 25,
                                     ),
+                                  ),
+                                  DecoratedBox(
+                                    decoration: BoxDecoration(
+                                      color: Color(0xFFEF8B60),
+                                      borderRadius: BorderRadius.only(
+                                          bottomLeft: Radius.circular(8),
+                                          bottomRight: Radius.circular(8)),
+                                    ),
+                                    child: Container(
+                                        width: 140.0,
+                                        height: 30.0,
+                                        alignment: Alignment.center,
+                                        child: Text(
+                                          '15.0 KJ',
+                                          style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            color: Color.fromARGB(255, 0, 0, 0),
+                                            fontSize: 15,
+                                          ),
+                                        )),
                                   ),
                                 ],
                               ),
